@@ -18,11 +18,36 @@
   margin:0 auto;
 }
 header{
-  height: 100px;
-  background-color:yellow;
+  
+
+
+  background-image:url("img/sfondoheader.png");
+  background-size: contain;
+  display: inline-block;
+  position: relative;
+
 }
+.immagine2{
+  width: 800px;
+  height: 360px;
+  background-image:url("img/natural.png");
+  background-size: cover;
+  display: inline-block;
+  position:absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: middle;
+}
+h1{
+  text-align:center;
+  color:white;
+  margin-bottom: 25px;
+}
+
 .clearfix{
   margin-top: 10px;
+
 }
 
 .clearfix>div:first-child{
