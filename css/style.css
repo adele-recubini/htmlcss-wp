@@ -4,15 +4,20 @@
   padding: 0;
 }
 
-/* body{
-  background-image: url("img/sfondo.png");
-} */
+.sfondo{
+  width: 3000px;
+  height: 2000px;
+  position: relative;
+
+}
+
 .page{
   width: 1200px;
   margin:0 auto;
- background-image: url("img/sfondo.png");
- background-size: cover;
-
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
 
 }
 
