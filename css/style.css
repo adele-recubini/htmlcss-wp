@@ -129,8 +129,7 @@ h2{
   width:100% ;
   background-color: white;
   border: 1px solid black;
-  margin-top: 10px;
-  display: block;
+  border-bottom: 10px;
 }
 footer{
   height: 200px;
