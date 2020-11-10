@@ -3,6 +3,17 @@
   margin:0;
   padding: 0;
 }
+/* .sfondo{
+ width: 100vw;
+ background-image:url("img/sfondo.png");
+ background-size:100%;
+ background-image:("img/sfondo.png");
+} */
+.page{
+  width: 1200px;
+
+}
+
 /* utility class */
 .clearfix::after{
   content: "";
@@ -18,6 +29,7 @@
   margin:0 auto;
 }
 header{
+  margin-top: 20px;
   background-image:url("img/sfondoheader.png");
   background-size: cover;
   display: inline-block;
@@ -44,6 +56,10 @@ h1{
   color:white;
   margin-bottom: 25px;
 }
+h4{
+  color:lightgrey;
+  text-align: center;
+}
 nav{
 }
 .opzioni{
@@ -60,6 +76,7 @@ nav{
   padding: 10px;
   font-size: 15px;
   font-style: normal;
+  color: white;
 
 }
 .clearfix{
@@ -73,10 +90,10 @@ nav{
 }
 
 .contitem{
-    width: 100px;
-    height: 50px;
-    display: inline-block;
-    margin-left: 10px;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 10px;
 }
 p{
   margin-left: 10px;
@@ -85,39 +102,32 @@ p{
 .clearfix>div:first-child{
   width: 25%;
   height: 600px;
-  background-color: pink;
+  border:1px solid black;
 }
 .clearfix>div:nth-child(2){
-  width: calc(50% - 20px);
-  height: 300px;
- background-color: violet;
- margin:0 10px;
+width: calc(50% - 20px);
+height: 300px;
+background-color: white;
+margin:0 10px;
+border: 1px solid black;
 }
-/* .special>div{
-  width: 25%;
-  height: 300px;
-  background-color: pink;
-  border: 2px solid black;
-} */
-footer{
-  height: 100px;
-  background-color:lightblue;
-  margin-top: 50px;
+h2{
+  text-align:left;
+  margin: 5px;
 }
 
 .box3{
   width: 25%;
   height: 1000px;
   background-color: white;
-  border: 2px solid black;
+
 
 }
 .box4{
   width: 100%;
   height: 300px;
   background-color:white;
-  border: 2px solid black;
-
+  border: 1px solid black;
   display: block;
 }
 
@@ -125,7 +135,7 @@ footer{
   width:100% ;
   height: 300px;
   background-color: white;
-  border: 2px solid black;
+  border: 1px solid black;
   margin-top: 10px;
   display: block;
 
@@ -136,4 +146,11 @@ footer{
   background-color: white;
   border: 2px solid black;
   margin-top: 10px;
+}
+footer{
+  height: 100px;
+  background-color:white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border: 1px solid black ;
 }
